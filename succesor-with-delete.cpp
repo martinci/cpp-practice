@@ -1,14 +1,14 @@
-/*
- * SUCCESSOR WITH DELETE
+/* SUCCESSOR WITH DELETE (IN PROGRESS)
  * 
  * INPUT:
- * - Set of N integers S = {0, 1, ..., N-1}.
- * - A sequence of requests of the form:
- *      a) remove x from S
- *      b) find the succesor of x: the smallest y in S so that y >= x
+ *    - Set of N integers S = {0, 1, ..., N-1}.
+ *    - A sequence of requests of the form:
+ *        a) remove x from S
+ *        b) find the succesor of x: the smallest y in S so that y >= x
  *
  * TO DO:
- * Design a data type so that all operations (except construction) take logarithmic time or better in the worst case.
+ *     - Design a data type so that all operations (except construction)
+ *       take logarithmic time or better in the worst case.
  */
 #include <iostream>
 #include <string>
